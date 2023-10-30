@@ -22,19 +22,19 @@
 
 
 ## 📌 주요 내용
-![Alt text](image-1.png)
-![Alt text](image-2.png)
-![Alt text](image-3.png)
-![Alt text](image-4.png)
-![Alt text](image-5.png)
-![Alt text](image-6.png)
-![Alt text](image-7.png)
-![Alt text](image-8.png)
+![Alt text](readme_img/image-1.png)
+![Alt text](readme_img/image-2.png)
+![Alt text](readme_img/image-3.png)
+![Alt text](readme_img/image-4.png)
+![Alt text](readme_img/image-5.png)
+![Alt text](readme_img/image-6.png)
+![Alt text](readme_img/image-7.png)
+![Alt text](readme_img/image-8.png)
 ----------------------------------------------------------
 ## 📃 참고 논문
 - KCI_FI001851296.pdf
 
-![Alt text](image.png)
+![Alt text](readme_img/image.png)
 
 
 ----------------------------------------------------------
