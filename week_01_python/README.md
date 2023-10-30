@@ -22,11 +22,11 @@
 
 #### 기프티콘 선물
 
-![Alt text](week_01_python\readme_img\image_01.png)
+![Alt text](.\readme_img\image_01.png)
 
 #### 기프티콘 사용
 
-![Alt text](week_01_python\readme_img\image_01.png)
+![Alt text](.\readme_img\image_01.png)
 
 ----------------------------------------------------------
 
