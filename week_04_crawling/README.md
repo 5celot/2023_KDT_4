@@ -21,52 +21,52 @@
 ##  📌 주요내용
 - 지역별 채용 공고 수
 
-![Alt text](./images/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C4.PNG)
+![Alt text](readme_img/image.png)
 
 - 자격증 유무에 따른 연봉(신입)
 
-![Alt text](./images/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C6.PNG)
+![Alt text](readme_img/image-1.png)
 
 - 사용 가능 언어에 따른 연봉(신입)
 
-![Alt text](./images/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C7.PNG)
+![Alt text](readme_img/image-2.png)
 
 - 학력별 연봉(신입)
 
-![Alt text](./images/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C8.PNG)
+![Alt text](readme_img/image-3.png)
 
 - 지역별 연봉(신입)
 
-![Alt text](./images/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C9.PNG)
+![Alt text](readme_img/image-4.png)
 
 - 채용공고 형태소 분석(신입)
 
-![Alt text](./images/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C10.PNG)
+![Alt text](readme_img/image-5.png)
 
 - 자격증 유무에 따른 연봉(경력)
 
-![Alt text](./images/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C12.PNG)
+![Alt text](readme_img/image-6.png)
 
 
 - 사용 가능 언어에 따른 연봉(경력)
 
-![Alt text](./images/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C13.PNG)
+![Alt text](readme_img/image-7.png)
 
 - 학력별 연봉(경력)
 
-![Alt text](./images/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C14.PNG)
+![Alt text](readme_img/image-8.png)
 
 - 지역별 연봉(경력)
 
-![Alt text](./images/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C15.PNG)
+![Alt text](readme_img/image-9.png)
 
 - 경력별 연봉(경력)
 
-![Alt text](./images/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C16.PNG)
+![Alt text](readme_img/image-10.png)
 
 - 채용공고 형태소 분석(경력)
 
-![Alt text](./images/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C17.PNG)
+![Alt text](readme_img/image-11.png)
 
 ----------------------------------------------------------
 ## 📓 STACKS
