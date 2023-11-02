@@ -35,19 +35,19 @@
 
 ----------------------------------------------------------
 ## 📌 주요 내용
-![Alt text](image.png)
-![Alt text](image-1.png)
+![Alt text](readme_img/image.png)
+![Alt text](readme_img/image-1.png)
 
 ## 💻 웹페이지
 - 메인 페이지
-![Alt text](image-2.png)
-![Alt text](image-3.png)
+![Alt text](readme_img/image-2.png)
+![Alt text](readme_img/image-3.png)
 - 결과 확인창
-![Alt text](image-4.png)
+![Alt text](readme_img/image-4.png)
 - 서브 페이지
-![Alt text](image-5.png)
-![Alt text](image-6.png)
-![Alt text](image-7.png)
+![Alt text](readme_img/image-5.png)
+![Alt text](readme_img/image-6.png)
+![Alt text](readme_img/image-7.png)
 ----------------------------------------------------------
 ## 📓 STACKS
  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white"> <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=Jupyter&logoColor=white"> <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=Pandas&logoColor=white"> <img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white"> <img src="https://img.shields.io/badge/CSS3-EC407A?style=for-the-badge&logo=CSS3&logoColor=white"> <img src="https://img.shields.io/badge/numpy-013243?style=for-the-badge&logo=numpy&logoColor=white"> <img src="https://img.shields.io/badge/scikitlearn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white"> <img src="https://img.shields.io/badge/opencv-EA7E20?style=for-the-badge&logo=opencv&logoColor=white">
