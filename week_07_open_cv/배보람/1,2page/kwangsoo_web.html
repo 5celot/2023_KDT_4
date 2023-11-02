@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>광수</title>
+        <link type="text/css" rel="stylesheet" href="webpage.css">
+        <style>
+            @font-face {
+                        font-family: 'MAKGEOLLI.ttf';
+                        src: url('MAKGEOLLI.ttf') format('truetype');
+                        font-weight: normal;
+                        font-style: normal;
+                }
+            body{margin:0px;
+                padding:0px;
+                overflow: hidden;
+                color:white;
+                font-family: 'MAKGEOLLI.ttf'
+                
+            }
+            #back{
+                position: relative;;
+                overflow: auto;
+                background: url('./img/background.jpg');
+                height: 100vh; 
+                margin: 0;
+                scroll-behavior: smooth;
+                scroll-snap-type: y mandatory;
+                /* display: flex; */
+            }
+            .main{
+                scroll-snap-align: center;
+                height: 100vh;
+            }
+        </style>
+        
+    </head>
+    
+    <body>
+        <!-- 1page -->
+        
+        <div id="back">
+            
+            <div class="main">
+
+                <div class="home">
+                    <a href="홈 페이지의 URL을 여기에 넣으세요">
+                        <img class="home" src="./img/homebutton.png" width="400px" height="300px">
+                    </a>
+                </div>
+
+                <img class="img" src="./img/kwangsoojukja.png" width=260px height=870px>
+                <div class="moto2"><img class="img" src="./img/user.jpg" width=500px height=500px></div>
+                
+                <div class="historytitle">두 둥 !</div>
+                <div class="history">당신은 나는솔로 17기 <span class="name">광수</span> 입니다.</div>
+
+            </div>
+
+            <!-- 2page -->
+            <div class="main">
+
+                <p style="font-size: 24px;"><br></p>
+                <p class="home1">
+                    <a href="홈 페이지의 URL을 여기에 넣으세요">
+                        <img class="home" src="./img/homebutton.png" width="400px" height="300px">
+                    </a>
+                </p>
+                <p class="qnatitle">특  징</p>
+                <img class="contentsImg" src="./img/jukja.png" width="1470" height="750" style="position: relative; left: 190px; top: 30px">
+                <p class="contents">출연자들의 스펙과 배경이 대체로 좋은 편이긴 하지만<br>
+                    이들중에서도 으뜸은 단연 광수라고 말할 수 있습니다.<br>
+                    엘리트의 분위기와 포스가자연스럽게 따라오는 광수는 <br>
+                    언제나 인기만점!<br><br>
+                    여심공략전문가, 재간둥이 광수의 매력을 마음껏 뽐내세요!</p>
+
+            </div>
+        </div>
+    </body>
+</html>

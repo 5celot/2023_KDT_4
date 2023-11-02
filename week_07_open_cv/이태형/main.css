@@ -1,0 +1,435 @@
+
+@font-face {
+font-family: 'yg-jalnan';
+src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: 'MyCustomFont';
+src: url('../solo/MAKGEOLLI.ttf') format('truetype');
+}
+
+#back{
+    overflow: auto;
+    width:100%;
+    height:100vh; 
+    scroll-behavior:smooth;
+    scroll-snap-type: y mandatory;
+    
+}
+.main{
+    scroll-snap-align: center;
+    height: 100vh;
+
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+h3,p{
+    color: #ffffff;
+}
+
+
+footer{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    clear: both;
+    /* text-align:center; */
+    padding:0px;
+    margin: 0px;
+    height:60%;
+
+}
+
+/* 움짤 주소 */
+#mainImg{
+width: 100%; 
+height: 140vh;
+background-image: url('../solo/나는솔로 OP3.jpg'); 
+background-position: center; 
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+
+
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/*배경 색상 코드들*/
+div#container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../solo/나는솔로 OP-2.jpg');
+    background-position: center; 
+    background-size: auto;
+    background-repeat: no-repeat;
+   
+}
+div#container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../solo/나는솔로 OP-2.jpg');
+    background-position: center; 
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+div#container3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../solo/나는솔로 OP-2.jpg');
+    background-position: center; 
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+div#container4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../solo/나는솔로 OP-2.jpg');
+    background-position: center; 
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+div#container5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../solo/나는솔로 OP-2.jpg');
+    background-position: center; 
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+div#container6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../solo/나는솔로 OP-2.jpg');
+    background-position: center; 
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+div#container7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../solo/나는솔로 OP-2.jpg');
+    background-position: center; 
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+div#container8 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../solo/나는솔로 OP-2.jpg');
+    background-position: center; 
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+div#container9 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../solo/나는솔로 OP-2.jpg');
+    background-position: center; 
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+div#container10 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../solo/나는솔로 OP-2.jpg');
+    background-position: center; 
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+div#container11 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../solo/나는솔로 OP-2.jpg');
+    background-position: center; 
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+div#container12 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../solo/나는솔로 OP-2.jpg');
+    background-position: center; 
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+div#container13 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../solo/나는솔로 OP-2.jpg');
+    background-position: center; 
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+/* 출연진 */
+#jocja{
+    background-image: url('../solo/족자.png');
+    box-shadow: 10px 10px 10px #575151;
+    background-repeat: no-repeat;
+    border-radius: 0.3cm;
+    
+}
+.teammates{
+    font-size: 50px;
+    color: rgba(255, 255, 255, 0);
+    font-family: 'yg-jalnan';
+    
+}
+
+
+#soojin{
+    box-shadow: 5px 5px 5px #555252;
+}
+
+figcaption{
+   
+    margin:10px;
+    font-size: 25px;
+    font-family: 'yg-jalnan';
+    text-shadow:1px 1px 1px #000;
+    color:rgb(255, 255, 255);
+}
+
+.apos{
+    color:rgb(240, 50, 117);
+    font-size: 50px;
+}
+
+#team{
+    position: absolute;
+    padding: 30px;
+    text-align: center;
+    margin-left:30px;
+}
+
+/* 출연자 목록 */
+a.header-text{
+    color:rgb(70, 64, 64);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-family: 'MyCustomFont','yg-jalnan';
+    /* text-shadow:8px 8px 8px #000; */
+    font-weight: bold; 
+}
+
+#hvr1 {
+display:inline-block;
+width:500px;
+height:500px;
+background:url('../youngsoo_main.png') no-repeat;
+background-size: cover;
+margin-top: 40px;
+border-radius: 10%;
+border:10px solid rgb(255, 255, 255);
+box-shadow: 5px 5px 5px #555252;
+}
+
+
+
+
+#hvr2 {
+display:inline-block;
+width:500px;
+height:500px;
+background:url('../youngho_main.png') no-repeat;
+background-size: cover;
+margin-top: 40px;
+border-radius: 10%;
+border:10px solid rgb(255, 255, 255);
+box-shadow: 5px 5px 5px #555252;
+}
+
+
+#hvr3 {
+display:inline-block;
+width:500px;
+height:500px;
+background:url('../youngsik_main.png') no-repeat;
+background-size: cover;
+margin-top: 40px;
+border-radius: 10%;
+border:10px solid rgb(255, 255, 255);
+box-shadow: 5px 5px 5px #555252;
+}
+
+
+
+#hvr4 {
+display:inline-block;
+width:500px;
+height:500px;
+background:url('../youngchul_main.png') no-repeat;
+background-size: cover;
+margin-top: 40px;
+border-radius: 10%;
+border:10px solid rgb(255, 255, 255);
+box-shadow: 5px 5px 5px #555252;
+}
+
+
+#hvr5 {
+display:inline-block;
+width:500px;
+height:500px;
+background:url('../kwangsoo_main.png') no-repeat;
+background-size: cover;
+margin-top: 40px;
+border-radius: 10%;
+border:10px solid rgb(255, 255, 255);
+box-shadow: 5px 5px 5px #555252;
+    }
+
+
+#hvr6 {
+display:inline-block;
+width:500px;
+height:500px;
+background:url('../sangchul_main.png') no-repeat;
+background-size: cover;
+margin-top: 40px;
+border-radius: 10%;
+border:10px solid rgb(255, 255, 255);
+box-shadow: 5px 5px 5px #555252;}
+
+
+
+#hvr7 {
+    display:inline-block;
+    width:500px;
+    height:500px;
+    background:url('../youngsook.png') no-repeat;
+    background-size: cover;
+    margin-top: 40px;
+    border-radius: 10%;
+    border:10px solid rgb(255, 255, 255);
+    box-shadow: 5px 5px 5px #555252;}
+
+
+#hvr8 {
+    display:inline-block;
+    width:500px;
+    height:500px;
+    background:url('../jungsook_main.jfif') no-repeat;
+    background-size: cover;
+    margin-top: 40px;
+    border-radius: 10%;
+    border:10px solid rgb(255, 255, 255);
+    box-shadow: 5px 5px 5px #555252;}
+
+
+
+#hvr9 {
+    display:inline-block;
+    width:500px;
+    height:500px;
+    background:url('../soonja_main.jfif') no-repeat;
+    background-size: cover;
+    margin-top: 40px;
+    border-radius: 10%;
+    border:10px solid rgb(255, 255, 255);
+    box-shadow: 5px 5px 5px #555252;}
+
+
+
+#hvr10 {
+    display:inline-block;
+    width:500px;
+    height:500px;
+    background:url('../youngja.png') no-repeat;
+    background-size: cover;
+    margin-top: 40px;
+    border-radius: 10%;
+    border:10px solid rgb(255, 255, 255);
+    box-shadow: 5px 5px 5px #555252;}
+
+
+#hvr11 {
+    display:inline-block;
+    width:500px;
+    height:500px;
+    background:url('../ouksoon_main.png') no-repeat;
+    background-size: cover;
+    margin-top: 40px;
+    border-radius: 10%;
+    border:10px solid rgb(255, 255, 255);
+    box-shadow: 5px 5px 5px #555252;}
+
+
+#hvr12 {
+    display:inline-block;
+    width:500px;
+    height:500px;
+    background:url('../hyunsook_main.jfif') no-repeat;
+    background-size: cover;
+    margin-top: 40px;
+    border-radius: 10%;
+    border:10px solid rgb(255, 255, 255);
+    box-shadow: 5px 5px 5px #555252;}
+
+
+
+
+.h3-class{
+    color:rgb(255, 255, 255);
+    font-family: 'yg-jalnan';
+    text-shadow:1px 1px 1px #000;
+    text-align: center;
+}
+
+.p-class{
+    color:rgb(255, 255, 255);
+    font-family: 'yg-jalnan';
+    text-shadow:1px 1px 1px #000;
+    text-align: center;  
+}
+
+#motto{
+    color:rgb(255, 255, 255);
+    font-family: 'yg-jalnan';
+    font-size:43px;
+}
+
+

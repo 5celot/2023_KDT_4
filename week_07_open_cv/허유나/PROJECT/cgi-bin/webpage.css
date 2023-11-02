@@ -1,0 +1,689 @@
+
+
+/* 1page */
+.img{ 
+    position: absolute;
+    z-index:2;
+    top:100px;
+    left:450px;
+    box-shadow: 10px 10px 10px #575151;
+    background-repeat: no-repeat;
+    border-radius: 0.3cm;
+}
+
+.home{ 
+    position: absolute;
+    z-index:2;
+    top:0px;
+    left:0px;
+    background-repeat: no-repeat;
+    border-radius: 0.3cm;
+}
+
+.moto2{
+    position:absolute;
+    color:white;
+    font-size:100px;
+    left:500px;
+    top:100px;    
+}
+
+.historytitle{
+    position:absolute;
+    color:black;
+    font-size:70px;
+    left:1155px;
+    top:750px;
+}
+
+.history{
+    color:black;
+    top:850px;
+    font-size:60px;
+    position: absolute;
+    left:900px
+}
+
+.name{
+    color:black;
+    text-shadow: 10px 10px 10px #575151;
+    background-repeat: no-repeat;
+    border-radius: 0.3cm;
+    font-size:70px;
+}
+
+
+/* 2page */
+.qnatitle {
+    text-align: center;
+    text-decoration-line: underline;
+    font-size:100px;
+    color: white;
+    height: 90px;
+    margin-top: 0px;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.contentsImg{
+    box-shadow: 10px 10px 10px #575151;
+    background-repeat: no-repeat;
+    border-radius: 0.3cm;
+}
+
+.contents{
+    color:black;
+    top:1450px;
+    font-size:60px;
+    position: absolute;
+    left:300px
+}
+
+.contents1{
+    color:black;
+    top:1400px;
+    font-size:60px;
+    position: absolute;
+    left:300px
+}
+
+.home1{
+    top:1070px;
+    position: absolute;
+    left:5px
+}
+
+
+
+/* 3page */
+.home2{
+    top:1070px;
+    position: absolute;
+    left:5px
+}
+
+
+/* 현숙 */
+.hsook1{
+    position:absolute;
+    left:100px;
+    top:200px;
+}
+
+.hsook2{
+    position:absolute;
+    left:100px;
+    top:200px;
+}
+
+.hsook3{
+    position:absolute;
+    left:100px;
+    top:200px;
+}
+
+.hsook4{
+    position:absolute;
+    left:100px;
+    top:200px;
+}
+
+.hsook5{
+    position:absolute;
+    left:100px;
+    top:200px;
+}
+
+.hsook6{
+    position:absolute;
+    left:100px;
+    top:200px;
+}
+
+
+/* 정숙 */
+.jsook1{
+    position:relative;
+    left:100px;
+    top:200px;
+}
+
+.jsook2{
+    position:relative;
+    left:100px;
+    top:200px;
+}
+
+.jsook3{
+    position:relative;
+    left:100px;
+    top:200px;
+}
+
+.jsook4{
+    position:relative;
+    left:100px;
+    top:200px;
+}
+
+.jsook5{
+    position:relative;
+    left:100px;
+    top:200px;
+}
+
+.jsook6{
+    position:relative;
+    left:100px;
+    top:200px;
+}
+
+.jsook7{
+    position:relative;
+    left:100px;
+    top:200px;
+}
+
+/* 광수 */
+.ksoo1{
+    position:relative;
+    left:100px;
+    top:200px;
+}
+
+.ksoo2{
+    position:relative;
+    left:100px;
+    top:200px;
+}
+
+.ksoo3{
+    position:relative;
+    left:100px;
+    top:200px;
+}
+
+.ksoo4{
+    position:relative;
+    left:100px;
+    top:200px;
+}
+
+.ksoo5{
+    position:relative;
+    left:100px;
+    top:200px;
+}
+
+.ksoo6{
+    position:relative;
+    left:100px;
+    top:200px;
+}
+
+.ksoo7{
+    position:relative;
+    left:100px;
+    top:200px;
+}
+
+.ksoo8{
+    position:relative;
+    left:100px;
+    top:200px;
+}
+
+
+/* 옥순 */
+.oksoon1{
+    position:relative;
+    left:100px;
+    top:200px;
+}
+
+.oksoon2{
+    position:relative;
+    left:100px;
+    top:200px;
+}
+
+.oksoon3{
+    position:relative;
+    left:100px;
+    top:200px;
+}
+
+.oksoon4{
+    position:relative;
+    left:100px;
+    top:200px;
+}
+
+.oksoon5{
+    position:relative;
+    left:100px;
+    top:200px;
+}
+
+.oksoon6{
+    position:relative;
+    left:100px;
+    top:200px;
+}
+
+.oksoon7{
+    position:relative;
+    left:100px;
+    top:200px;
+}
+
+.oksoon8{
+    position:relative;
+    left:100px;
+    top:200px;
+}
+
+
+/* 상철 */
+.schul1{
+    position:relative;
+    left:100px;
+    top:200px;
+}
+
+.schul2{
+    position:relative;
+    left:100px;
+    top:200px;
+}
+
+.schul3{
+    position:relative;
+    left:100px;
+    top:200px;
+}
+
+.schul4{
+    position:relative;
+    left:100px;
+    top:200px;
+}
+
+.schul5{
+    position:relative;
+    left:100px;
+    top:200px;
+}
+
+.schul6{
+    position:relative;
+    left:100px;
+    top:200px;
+}
+
+.schul7{
+    position:relative;
+    left:100px;
+    top:200px;
+}
+
+.schul8{
+    position:relative;
+    left:100px;
+    top:200px;
+}
+
+
+/* 순자 */
+.sja1{
+    position:relative;
+    left:100px;
+    top:200px;
+}
+
+.sja2{
+    position:relative;
+    left:100px;
+    top:200px;
+}
+
+.sja3{
+    position:relative;
+    left:100px;
+    top:200px;
+}
+
+.sja4{
+    position:relative;
+    left:100px;
+    top:200px;
+}
+
+.sja5{
+    position:relative;
+    left:100px;
+    top:200px;
+}
+
+.sja6{
+    position:relative;
+    left:100px;
+    top:200px;
+}
+
+.sja7{
+    position:relative;
+    left:100px;
+    top:200px;
+}
+
+
+/* 영철 */
+.ychul1{
+    position:relative;
+    left:100px;
+    top:200px;
+}
+
+.ychul2{
+    position:relative;
+    left:100px;
+    top:200px;
+}
+
+.ychul3{
+    position:relative;
+    left:100px;
+    top:200px;
+}
+
+.ychul4{
+    position:relative;
+    left:100px;
+    top:200px;
+}
+
+.ychul5{
+    position:relative;
+    left:100px;
+    top:200px;
+}
+
+.ychul6{
+    position:relative;
+    left:100px;
+    top:200px;
+}
+
+.ychul7{
+    position:relative;
+    left:100px;
+    top:200px;
+}
+
+
+/* 영호 */
+.yho1{
+    position:relative;
+    left:100px;
+    top:200px;
+}
+
+.yho2{
+    position:relative;
+    left:100px;
+    top:200px;
+}
+
+.yho3{
+    position:relative;
+    left:100px;
+    top:200px;
+}
+
+.yho4{
+    position:relative;
+    left:100px;
+    top:200px;
+}
+
+.yho5{
+    position:relative;
+    left:100px;
+    top:200px;
+}
+
+.yho6{
+    position:relative;
+    left:100px;
+    top:200px;
+}
+
+.yho7{
+    position:relative;
+    left:100px;
+    top:200px;
+}
+
+.yho8{
+    position:relative;
+    left:100px;
+    top:200px;
+}
+
+
+
+/* 영자 */
+.yja1{
+    position:relative;
+    left:100px;
+    top:200px;
+}
+
+.yja2{
+    position:relative;
+    left:100px;
+    top:200px;
+}
+
+.yja3{
+    position:relative;
+    left:100px;
+    top:200px;
+}
+
+.yja4{
+    position:relative;
+    left:100px;
+    top:200px;
+}
+
+.yja5{
+    position:relative;
+    left:100px;
+    top:200px;
+}
+
+.yja6{
+    position:relative;
+    left:100px;
+    top:200px;
+}
+
+.yja7{
+    position:relative;
+    left:100px;
+    top:200px;
+}
+
+.yja8{
+    position:relative;
+    left:100px;
+    top:200px;
+}
+
+
+/* 영식 */
+.ysik1{
+    position:relative;
+    left:100px;
+    top:200px;
+}
+
+.ysik2{
+    position:relative;
+    left:100px;
+    top:200px;
+}
+
+.ysik3{
+    position:relative;
+    left:100px;
+    top:200px;
+}
+
+.ysik4{
+    position:relative;
+    left:100px;
+    top:200px;
+}
+
+.ysik5{
+    position:relative;
+    left:100px;
+    top:200px;
+}
+
+.ysik6{
+    position:relative;
+    left:100px;
+    top:200px;
+}
+
+.ysik7{
+    position:relative;
+    left:100px;
+    top:200px;
+}
+
+.ysik8{
+    position:relative;
+    left:100px;
+    top:200px;
+}
+
+
+/* 영수 */
+.ysoo1{
+    position:relative;
+    left:100px;
+    top:200px;
+}
+
+.ysoo2{
+    position:relative;
+    left:100px;
+    top:200px;
+}
+
+.ysoo3{
+    position:relative;
+    left:100px;
+    top:200px;
+}
+
+.ysoo4{
+    position:relative;
+    left:100px;
+    top:200px;
+}
+
+.ysoo5{
+    position:relative;
+    left:100px;
+    top:200px;
+}
+
+.ysoo6{
+    position:relative;
+    left:100px;
+    top:200px;
+}
+
+.ysoo7{
+    position:relative;
+    left:100px;
+    top:200px;
+}
+
+.ysoo8{
+    position:relative;
+    left:100px;
+    top:200px;
+}
+
+
+/* 영숙 */
+.ysook1{
+    position:relative;
+    left:100px;
+    top:200px;
+}
+
+.ysook2{
+    position:relative;
+    left:100px;
+    top:200px;
+}
+
+.ysook3{
+    position:relative;
+    left:100px;
+    top:200px;
+}
+
+.ysook4{
+    position:relative;
+    left:100px;
+    top:200px;
+}
+
+.ysook5{
+    position:relative;
+    left:100px;
+    top:200px;
+}
+
+.ysook6{
+    position:relative;
+    left:100px;
+    top:200px;
+}
+
+.ysook7{
+    position:relative;
+    left:100px;
+    top:200px;
+}
+
+.ysook8{
+    position:relative;
+    left:100px;
+    top:200px;
+}
+
+.ysook9{
+    position:relative;
+    left:100px;
+    top:200px;
+}
+
+
+
+
+
+
+
+
+
+
+

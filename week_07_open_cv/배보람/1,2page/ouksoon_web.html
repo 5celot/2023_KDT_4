@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>옥순</title>
+        <link type="text/css" rel="stylesheet" href="webpage.css">
+        <style>
+            @font-face {
+                        font-family: 'MAKGEOLLI.ttf';
+                        src: url('MAKGEOLLI.ttf') format('truetype');
+                        font-weight: normal;
+                        font-style: normal;
+                }
+            body{margin:0px;
+                padding:0px;
+                overflow: hidden;
+                color:white;
+                font-family: 'MAKGEOLLI.ttf'
+                
+            }
+            #back{
+                position: relative;;
+                overflow: auto;
+                background: url('./img/background.jpg');
+                height: 100vh; 
+                margin: 0;
+                scroll-behavior: smooth;
+                scroll-snap-type: y mandatory;
+                /* display: flex; */
+            }
+            .main{
+                scroll-snap-align: center;
+                height: 100vh;
+            }
+        </style>
+        
+    </head>
+    
+    <body>
+        <!-- 1page -->
+        
+        <div id="back">
+            
+            <div class="main">
+
+                <div class="home">
+                    <a href="홈 페이지의 URL을 여기에 넣으세요">
+                        <img class="home" src="./img/homebutton.png" width="400px" height="300px">
+                    </a>
+                </div>
+
+                <img class="img" src="./img/ouksoonjukja.png" width=260px height=870px>
+                <div class="moto2"><img class="img" src="./img/user.jpg" width=500px height=500px></div>
+                
+                <div class="historytitle">두 둥 !</div>
+                <div class="history">당신은 나는솔로 17기 <span class="name">옥순</span> 입니다.</div>
+
+            </div>
+
+            <!-- 2page -->
+            <div class="main">
+
+                <p style="font-size: 24px;"><br></p>
+                <p class="home1">
+                    <a href="홈 페이지의 URL을 여기에 넣으세요">
+                        <img class="home" src="./img/homebutton.png" width="400px" height="300px">
+                    </a>
+                </p>
+                <p class="qnatitle">특  징</p>
+                <img class="contentsImg" src="./img/jukja.png" width="1470" height="750" style="position: relative; left: 190px; top: 30px">
+                <p class="contents">누가봐도 미인이라는 느낌이 드는 아름다운 출연자<br>
+                    화제의 그 이름 옥순입니다.<br>
+                    대체로 화려하고 수려한 외모를 가진 옥순은<br>
+                    촌스러운 옥순이라는 이름마저도 분위기있게 만들어버립니다.<br><br>
+                    
+                    흙 속에 있어도 옥은 옥이다. 옥순도 그러하다.<br></p>
+
+            </div>
+        </div>
+    </body>
+</html>
