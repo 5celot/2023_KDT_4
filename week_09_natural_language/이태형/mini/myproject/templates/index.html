@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Image Display</title>
+  <style>
+    .centered-image {
+      display: flex;
+      justify-content: center;
+    }
+
+    .centered-image img {
+      max-width: 100%; /* 이미지 너비 제한 */
+    }
+    .centered-div {
+      width: 50%; /* div 요소의 너비를 조절하세요 */
+      margin: auto; /* 가운데 정렬 */
+    }
+
+    body {
+      background-image: url('static/back.jpg'); /* 배경 이미지 설정 */
+      background-size: cover; /* 배경 이미지 크기 조절 */
+      background-repeat: no-repeat; /* 배경 이미지 반복 방지 */
+    }
+
+    .result {
+    background-color: rgba(255,255,255,.5); /* 반투명한 흰색 배경 설정 */
+    padding: 20px; 
+    border-radius :10px;
+    position: absolute; /* 절대 위치 지정 */
+    top: 100px; /* 상단으로부터의 거리 */
+    left: 50%; /* 왼쪽으로부터의 거리 - 가운데 정렬을 위해 50%로 설정 */
+    width: calc(100% - 500px); /* 너비 설정 - 양옆 여백이 각각 30px이므로 전체 너비에서 60px를 뺌 */
+    height: calc(100% - 200px);
+    transform: translateX(-50%); /* X축 방향으로 이동 - 가운데 정렬을 위해 자신의 너비의 절반만큼 왼쪽으로 이동시킴 */ 
+    overflow-y:auto ;/* 스크롤 추가*/
+    }
+   
+  </style>
+</head>
+
+<body>
+
+  <div class="centered-div">
+    <form method="POST" action="/">
+      <input type="text" name="url" placeholder="Enter URL here...">
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+
+  <div class="result">
+    {% if img1 %}
+    <div class="centered-image">
+      <img src="{{ img1 }}" alt ="Image1">
+    </div>
+    {% endif %}
+
+    {% if img2 %}
+    <div class = "centered-image ">
+      <img src = "{{img2}}" alt = "Image2 ">
+    </div >
+    {%endif%}
+
+    {%if img3 %}
+    <div class = "centered-image ">
+      <img src = "{{img3}}" alt ="Image3 ">
+    </div >
+    {%endif%}
+
+    {%if img4 %}
+    <div class = "centered-image ">
+      <img src = "{{img4}}" alt ="Image4 ">
+    </div >
+    {%endif%}
+  </div>
+
+</body>
+</html>
