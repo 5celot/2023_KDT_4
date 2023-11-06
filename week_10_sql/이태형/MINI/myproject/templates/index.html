@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Image Display</title>
+  <style>
+
+    @font-face {
+      font-family:'Apple SD Gothic Neo';
+      src: url('../static/Apple SD Gothic Neo Bold.ttf') format('truetype');
+    }
+
+    .result{
+      overflow: auto;
+      width:100%;
+      height:100vh; 
+      scroll-behavior:smooth;
+      scroll-snap-type: y mandatory;
+      
+    }
+    .contain{
+        scroll-snap-align: center;
+        height: 100vh;
+    
+    }
+
+
+    body {
+      font-family: 'Apple SD Gothic Neo', sans-serif;
+    }
+
+
+    .centered-image {
+      display: flex;
+      justify-content: center;
+    }
+
+    .centered-image img {
+      max-width: 100%; /* 이미지 너비 제한 */
+    }
+
+    /* 검색 버튼 */
+    .centered-div {
+    width: 50%;
+    position:relative; /* relative positioning 추가 */
+    left:700px; /* left 속성으로 오른쪽으로 움직임 */
+    margin-top:25px; /* 상단 여백 추가 */
+
+    }
+    /* 검색 버튼 */
+    .search{
+    width: 40%;
+    height: 30px;
+    font-size: 18px;
+    border:2px rgba(0, 0, 0, 0.381) solid;
+    border-radius :15px;
+    }
+    /* 검색 버튼 */
+    .button {
+    font-size: 18px;
+    border: none;
+    background-color: rgba(56, 56, 56, 0.525);
+    width: 50px;
+    height: 30px;
+    border-radius: 15px;
+    color: #fff;
+    cursor: pointer;
+    }
+
+
+    body {
+      background-image: url('static/ipad.gif'); /* 배경 이미지 설정 */
+      background-size: 1100px; /* 배경 이미지 크기 조절 */
+      background-repeat: no-repeat;/* 배경 이미지 반복 방지 */
+      background-position: center 80px;  /* 이미지 정 가운데로 위치 */
+    }
+
+    .result {
+    padding: 20px; 
+    border-radius :15px;
+    position: absolute; /* 절대 위치 지정 */
+    top: 122px; /* 상단으로부터의 거리 */
+    left: 50%; /* 왼쪽으로부터의 거리 - 가운데 정렬을 위해 50%로 설정 */
+    width: calc(100% - 720px); /* 너비 설정 - 양옆 여백이 각각 30px이므로 전체 너비에서 60px를 뺌 */
+    height: calc(100% - 270px);
+    transform: translateX(-50%); /* X축 방향으로 이동 - 가운데 정렬을 위해 자신의 너비의 절반만큼 왼쪽으로 이동시킴 */ 
+    overflow-y: auto ;/* 스크롤 추가*/
+    }
+
+    .result-transparent {
+    background-color: rgba(255, 255, 255, 0); /* 반투명한 배경 */
+    }
+
+    .result-white {
+    background-image: url('static/2.png');
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: 1100px;
+    
+    
+    }
+
+    
+
+    /* 스크롤바 전체에 대한 스타일 설정 */
+    .result::-webkit-scrollbar {
+        width:10px; /* 스크롤바의 너비 설정 */
+    }
+
+    /* 스크롤바의 트랙에 대한 스타일 설정 */
+    .result::-webkit-scrollbar-track {
+        background-color: rgba(128, 128, 128, 0); /* 회색 실선으로 꾸미기 (투명도 반) */
+        border-radius :8px; /* 모서리 둥글게 꾸미기 */
+    }
+
+    /* 스크론 바 핸들러에 대한 스타일 설정*/
+    .result::-webkit-scrollbar-thumb {
+        background-color:#88888800;
+    }
+
+
+
+    /* result 의 div */
+    .centered-text {
+      background-color: rgba(0, 0, 0, 0.277);
+      border-radius :15px;
+      text-align: center;
+      font-size: 20px;
+      margin: 100px;
+      padding: 10px;
+      text-shadow: 2px 2px hsla(0, 0%, 50%, 0.719);
+    }
+
+    .centered-text2 {
+      background-color: rgba(0, 0, 0, 0.277);
+      border-radius :15px;
+      text-align: center;
+      font-size: 20px;
+      padding: 10px;
+      text-shadow: 2px 2px hsla(0, 0%, 50%, 0.719);
+    }
+
+    .map{
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    overflow: hidden; 
+    border:4px rgba(99, 92, 92, 0) solid
+    }
+
+
+    /* // 각 div의 높이// */
+    .contain {
+    height: 550px;
+    
+    } 
+   
+  </style>
+</head>
+
+<body>
+
+  <div class="centered-div">
+    <form method="POST" action="/">
+      <input class='search' type="text" name="url" placeholder="   검색어 입력">
+      <input class='button' type="submit" value="검색">
+    </form>
+  </div>
+
+  <div class="result {% if txt0 %}result-white{% else %}result-transparent{% endif %}">
+    
+    
+
+
+
+
+    {% if txt0 %}
+    <div class="contain">
+      <div class="centered-text">
+        <p>안녕하세요 당신의 여행 도우미 <p style="font-size: 30px; text-shadow: 10px 10px rgba(164, 228, 195, 0.793);">E Y T<br> <br></p></p>
+      </div>
+    </div>
+    {% endif %}
+
+
+    {% if txt0 %}
+    <div class="contain">
+      <div class="centered-text">
+        <p><br>당신의 상황은 "{{ search }}" 이군요?<br><br></p></p>
+      </div>
+    </div>
+    {% endif %}
+
+    {% if txt0 %}
+    <div class="contain">
+      <div class="centered-text">
+        <p><br>여행지를 추천해 드리기 전, 당신의 상황에서 어떠한 감정이 있는걸로 보여요<br><br></p></p>
+      </div>
+    </div>
+    {% endif %}
+
+
+    {% if txt0 %}
+    <div class="contain">
+      <div class="centered-text">
+        <p><br>당신의 심리상태 점수는 "{{ jumsu }}" 로 추측해 보았습니다.<br><br></p></p>
+      </div>
+    </div>
+    {% endif %}
+
+    
+    {% if txt0 %}
+    <div class="contain">
+      <div class="centered-text">
+        <p><br>이러한 당신에게 추천해 주고 싶은 신선한 여행지는 바로...<br><br></p></p>
+      </div>
+      {% endif %}
+    </div>
+
+    <div class="contain">
+      {% if txt0 %}
+      <div class="centered-text">
+        <p><br>( 고민중 ··· )<br><br></p></p>
+      </div>
+      {% endif %}
+    </div>
+
+
+    <div class="contain">
+      {% if txt0 %}
+      <div class="centered-text">
+        <p><br>"{{txt0}}" 입니다!<br><br></p></p>
+      </div>
+      {% endif %}
+    </div>
+
+    <!-- <div class="contain">
+      {% if txt0 %}
+      <div class="centered-text">
+        <p><br>"{{txt0}}" 은 ~~~~~ 입니다<br><br></p></p>
+      </div>
+      {% endif %}
+    </div> -->
+
+
+    <br><br><br>
+
+    <div class="contain">
+    {%if html %}
+    <br>
+      <div class="centered-text2">
+        <p>당신을 위해 "{{txt0}}" 주변 맛집, 카페, 놀곳을 추천해 드릴게요</p>
+      </div>
+      <br>
+
+      <div class="map">
+        <iframe src="{{html}}" style="width:100%; height:500px;"></iframe>
+      </div>
+    {%endif%}
+    </div>
+
+
+
+  
+  </div>
+
+</body>
+</html>
