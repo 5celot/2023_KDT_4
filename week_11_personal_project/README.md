@@ -28,8 +28,13 @@
 - 포켓몬 898종의 각 3~4장 총 2503장의 이미지 데이터 : https://www.kaggle.com/datasets/hlrhegemony/pokemon-image-dataset 
 - 인물사진 약 20만장
  : https://www.kaggle.com/datasets/jessicali9530/celeba-dataset
+ 
 ----------------------------------------------------------
+## ⏱ Project Duration
 
+- **개발을 위한 공부:** 2023.10.16. ~ 2023.10.26.
+- **실제 개발 기간:** 2023.10.20. ~ 2023.10.26.
+----------------------------------------------------------
 ## ⚙️ 개발 환경
 - **Web** : `flask 2.3.3`
 - **Programming** : `Python 3.9`
