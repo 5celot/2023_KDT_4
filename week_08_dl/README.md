@@ -51,9 +51,9 @@
 
 ## 💻 웹페이지
 - 메인 페이지
-![Alt text](readme_img/image-6.png)
+![Alt text](readme_img/image-9.png)
 - 결과 확인창
-![Alt text](readme_img/image-7.png)
+![Alt text](readme_img/image-10.png)
 
 ----------------------------------------------------------
 ## 📓 STACKS
